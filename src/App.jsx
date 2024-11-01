@@ -12,15 +12,17 @@ function App() {
 
 
   return (
-    <ConnectionProvider endpoint={"https://solana-devnet.g.alchemy.com/v2/cwxuo_Uqj12A5dtchRJqLnrocVGoFdeY"}>
+    <ConnectionProvider endpoint={"https://api.devnet.solana.com"}>
       <WalletProvider wallets={[]} >
         <WalletModalProvider>
 
           
-
+        <div >
           <WalletMultiButton />
-          <TokenLaunchpad></TokenLaunchpad>
+          
           <WalletDisconnectButton />
+          </div>
+          <TokenLaunchpad></TokenLaunchpad>
 
         </WalletModalProvider>
       </WalletProvider>

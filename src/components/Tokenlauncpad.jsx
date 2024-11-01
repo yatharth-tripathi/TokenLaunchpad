@@ -1,4 +1,8 @@
 export function TokenLaunchpad() {
+
+
+
+    function createToken(){}
 return <div>
 
 
@@ -8,7 +12,7 @@ return <div>
    <input type="text" placeholder="Symbol"></input><br/>
    <input type="text" placeholder="Image Url"></input><br/>
    <input type="text" placeholder="Intial Supply"></input><br/>
-    <button>Create your Token</button>
+    <button onClick={createToken}>Create your Token</button>
 
 
 
