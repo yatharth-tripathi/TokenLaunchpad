@@ -16,11 +16,14 @@ function App() {
       <WalletProvider wallets={[]} >
         <WalletModalProvider>
 
-          
-        <div >
-          <WalletMultiButton />
-          
-          <WalletDisconnectButton />
+
+          <div >
+            <WalletMultiButton />
+                                        
+
+            <WalletDisconnectButton />
+
+
           </div>
           <TokenLaunchpad></TokenLaunchpad>
 
